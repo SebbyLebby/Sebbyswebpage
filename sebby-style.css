@@ -1,0 +1,175 @@
+header{
+    background-color: #0D1B2A;
+    position: relative;
+    margin: 0 auto;
+    height: 350px;
+}
+
+.sebbylebby{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    margin: auto 20px;
+    width: 300px;
+    height: 300px;
+}
+
+#mi-foto{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 20px 50px 0 50px;
+}
+
+.nombre{
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#mini-logo{
+    position: relative;
+    top: 5px;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.bloque-info{
+    display: inline-block;
+    position: absolute;
+    width: 800px;
+    top: 50px;
+    margin: 0 15px 0 15px;
+}
+
+.titulo-mediano{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.informacion{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+main{
+    height: 1080px;
+}
+
+.programas{
+    background: linear-gradient(#0D1B2A, #1B263B);
+}
+
+h1.titulo-grande{
+    color:white;
+    font-size: 55px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.bloque-herramientas{
+    width: 800px;
+    display:inline-block;
+    height: 300px;
+    margin: 0 5px;
+}
+
+.frontend{
+    display: inline-block;
+    height: 250px;
+    margin: 40px 30px;
+    padding-bottom: 15px 300px;
+}
+
+.backend{
+    display: inline-block;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    margin: 40px 30px;
+    padding-bottom: 15px 300px;
+}
+
+.data-analysis{
+    display: inline-block;
+    height: 250px;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    margin: 40px 30px;
+    padding-bottom: 15px 300px;
+}
+
+.logo{
+    display: inline-block;
+    padding: 10px 15px 10px 10px;
+}
+
+h2.titulo-herramienta1{
+    display: inline-block;
+    position: absolute;
+    top: 550px;
+    right: 200px;
+    margin-left: 200px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2.titulo-herramienta2{
+    display: inline-block;
+    position: absolute;
+    top: 850px;
+    right: 215px;
+    color: white;
+    font-size: 50px;
+    margin-left: 200px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2.titulo-herramienta3{
+    display: inline-block;
+    position: absolute;
+    top: 1150px;
+    right: 140px;
+    color: white;
+    font-size: 50px;
+    margin-left: 200px;
+    text-decoration: underline;
+}
+
+h2:hover{
+    color:#FFFE00;
+}
+
+.experiencia-laboral{
+    background: linear-gradient(#1B263B, #415A77);
+}
+
+ul{
+    margin: 15px 0 15px 70px;
+}
+
+.items::before{
+    content: "✦";
+    color:#FFFE00;
+    padding-right: 10px;
+}
+
+.items{
+    color:white;
+    font-size: 30px;
+    line-height: 50px;
+}
+
