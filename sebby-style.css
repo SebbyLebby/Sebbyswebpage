@@ -1,3 +1,8 @@
+body{
+    width:auto;
+    height: auto;
+}
+
 header{
     background-color: #0D1B2A;
     position: relative;
@@ -5,7 +10,7 @@ header{
     height: 350px;
 }
 
-.sebbylebby{
+.sebbylebby-photo{
     display: inline-block;
     position: relative;
     top: 30px;
@@ -14,20 +19,22 @@ header{
     height: 300px;
 }
 
-#mi-foto{
+#imagen-yo{
     display: block;
     width: 200px;
     height: 200px;
     border-radius: 5px;
-    margin: 20px 50px 0 50px;
+    margin: 0 50px 0 50px;
 }
 
 .nombre{
     color: white;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
+    letter-spacing: 3px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 #mini-logo{
@@ -42,19 +49,24 @@ header{
 .bloque-info{
     display: inline-block;
     position: absolute;
+    top: 40px;
     width: 800px;
-    top: 50px;
+    height: auto;
+    background-color: #E6E8E6;
+    border-radius: 3px;
     margin: 0 15px 0 15px;
 }
 
 .titulo-mediano{
-    color:white;
+    color:#0D1B2A;
     font-size: 30px;
     margin-bottom: 15px;
+    padding: 8px 0 5px 15px;
 }
 
 .informacion{
-    color: white;
+    color: #0D1B2A;
+    padding: 0 10px 5px 10px;
     font-size: 20px;
     text-align: justify;
     line-height: 25px;
