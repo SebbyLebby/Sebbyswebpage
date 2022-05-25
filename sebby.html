@@ -13,7 +13,9 @@
 
     <body>
 
+        <a name = home></a>
         <header>
+            
             <div class = "sebbylebby-photo">
                 <img id = "imagen-yo" src = "imagenes/sebastian.jpg" alt = "Foto mía">
             </div>
@@ -30,10 +32,10 @@
 
             <nav>
                 <ul class = barra-nav>
-                    <li><a href="#" class = "boton">Home</a></li>
-                    <li><a href="#" class = "boton">Programas/Experiencia laboral</a></li>
-                    <li><a href="#" class = "boton">Contacto</a></li>
-                    <li><a href="#" class = "boton">Footer</a></li>
+                    <li><a href="#home" class = "boton">Home</a></li>
+                    <li><a href="#programas" id = "boton-largo" class = "boton">Programas</a></li>
+                    <!--<li><a href="#" class = "boton">Contacto</a></li>-->
+                    <li><a href="#footer" class = "boton">Footer</a></li>
                 </ul>
             </nav>
             
@@ -43,24 +45,25 @@
             <section class = "programas">
                 <h1 class = "titulo-programas"> Programas </h1>
 
+                <a name = programas></a>
                 <div class = "caja-habilidades">
 
                     <div class = "caja-logos">
                         <div class = "frontend">
-                            <img class = "logo" width = "100" height = "100" src = "imagenes/html-logo.png" alt = "html-logo">
-                            <img class = "logo" width = "100" height = "100" src = "imagenes/css-logo.png" alt = "css-logo">
-                            <img class = "logo" width = "100" height = "100" src = "imagenes/js-logo.png" alt = "js-logo">
+                            <img class = "logo" id = "fe" src = "imagenes/html-logo.png" alt = "html-logo">
+                            <img class = "logo" id = "fe" src = "imagenes/css-logo.png" alt = "css-logo">
+                            <img class = "logo" id = "fe" src = "imagenes/js-logo.png" alt = "js-logo">
                         </div>
             
                         <div class = "backend">
-                            <img class = "logo" width = "100" height = "100" src = "imagenes/python-logo.png" alt = "python-logo">
-                            <img class = "logo" width = "150" height = "150" src = "imagenes/java-logo.png" alt = "java-logo">
-                            <img class = "logo" width = "100" height = "100" src = "imagenes/git-logo.png" alt = "git-logo">
+                            <img class = "logo" id = "be1" src = "imagenes/python-logo.png" alt = "python-logo">
+                            <img class = "logo" id = "be2" src = "imagenes/java-logo.png" alt = "java-logo">
+                            <img class = "logo" id = "be1" src = "imagenes/git-logo.png" alt = "git-logo">
                         </div>
         
                         <div class = "data-analysis">
-                            <img class = "logo" width = "100" height = "100" src = "imagenes/excel-logo.png" alt = "excel-logo">
-                            <img class = "logo" width = "150" height = "120" src = "imagenes/SQLite-Logo.png" alt = "sqlite-logo">
+                            <img class = "logo" id = "da1" src = "imagenes/excel-logo.png" alt = "excel-logo">
+                            <img class = "logo" id = "da2" src = "imagenes/SQLite-Logo.png" alt = "sqlite-logo">
                         </div> 
                     </div>
     
@@ -80,6 +83,7 @@
         </main>
 
         <footer>
+            <a name = footer></a>
             <p id = "texto-pie">&#169; Copyright Sebastián Rodríguez Báez aka. SebbyLebby - 2022</p>
         </footer>
         
