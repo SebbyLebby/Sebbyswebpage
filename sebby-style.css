@@ -91,26 +91,55 @@ header{
     margin: 0 10px 8px 10px;
 }
 
+nav{
+    position: absolute;
+    margin-left: 440px;
+}
+
+nav ul li{
+    border: solid;
+}
+
+.barra-nav{
+    display: flex;
+}
+
+.boton{
+    background-color: #E84855;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border: black;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: #ba242e;
+}
 /*---------------------------------*/
 
 main{
+    background: linear-gradient(#0D1B2A, #415A77);
     height: 1080px;
 }
 
-.programas{
-    background: linear-gradient(#0D1B2A, #415A77);
-}
 
-h1.titulo-grande{
+h1.titulo-programas{
     color:white;
     font-size: 55px;
-    margin-left: 100px;
-    padding: 20px;
+    position: relative;
+    top: 90px;
+    margin-left: 120px;
 }
 
-.habilidades{
+.caja-habilidades{
     display: flex;
-
+    align-items: center;
+    margin: 0 auto;
 }
 
 .caja-logos{
@@ -120,7 +149,7 @@ h1.titulo-grande{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px 15px 0 20px;
+    margin: 0 15px 0 20px;
     border-radius: 3px;
 }
 
@@ -144,17 +173,26 @@ h1.titulo-grande{
 
 .logo{
     display: inline-block;
-    padding: 10px 15px 10px 10px;
-}
-
-.areas{
-    display: flexbox;
-    flex-direction: column;
+    padding: 15px 15px 10px 10px;
 }
 
 
-ul{
-    margin: 15px 0 15px 70px;
+h1.titulo-experiencia{
+    color:white;
+    position: relative;
+    top: 20px;
+    font-size: 55px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+
+ul.logros{
+    margin: 15px 0 60px 70px;
+    background-color: rgba(230,232,230,0.4);
+    width: 850px;
+    height: 525px;
+    border-radius: 3px;
 }
 
 
@@ -167,6 +205,22 @@ ul{
 .items{
     color:white;
     font-size: 30px;
+    text-align: justify;
     line-height: 50px;
+    letter-spacing: 0.1px;
+    padding: 10px;
+}
+
+footer{
+    background-color: #30343F;
+    width: auto;
+    height: 150px;
+}
+
+#texto-pie{
+    color: #FAFAFF;
+    text-align: center;
+    position: relative;
+    top: 130px;
 }
 
