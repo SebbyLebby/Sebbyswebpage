@@ -1,11 +1,10 @@
 body{
-    width:auto;
-    height: auto;
+    width: 1519px;
+    height: 792px;
 }
 
 header{
     background-color: #0D1B2A;
-    position: relative;
     margin: 0 auto;
     height: 350px;
 }
@@ -106,14 +105,11 @@ nav ul li{
 
 .boton{
     background-color: #E84855;
-    border: none;
     color: white;
     padding: 20px 30px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 18px;
-    border: black;
     cursor: pointer;
 }
 
@@ -220,7 +216,70 @@ footer{
 #texto-pie{
     color: #FAFAFF;
     text-align: center;
-    position: relative;
-    top: 130px;
 }
 
+@media screen and (max-width: 376px) {
+
+    body{
+        width: auto;
+        height: auto;
+    }
+
+    header{
+        width: auto;
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    .sebbylebby-photo{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0;
+        height: 250px
+    }
+
+    #imagen-yo{
+        width: auto;
+    }
+
+    .bloque-info{
+        display: block;
+        position: relative;
+        width: 320px;
+        height: 390px;
+        margin: 0 auto;
+        padding: 3px;
+    }
+
+    h3.titulo-mediano{
+        margin-bottom: 5px;
+    }
+
+    .informacion{
+        font-size: 16px;
+    }
+
+    .portafolio{
+        width: 160px;
+        display: flex;
+        position: absolute;
+        top: 690px;
+        left: 110px;
+        flex-direction: row;
+    }
+
+    nav{
+        margin: 0;
+        position: relative;
+        top: 150px;
+    }
+
+    .barra-nav{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .boton{
+        padding: 20px 20px;
+    }
+}
