@@ -27,34 +27,15 @@ header{
     margin: 0 50px 0 50px;
 }
 
-.nombre{
-    color: white;
-    text-align: center;
-    line-height: 30px;
-    letter-spacing: 3px;
-    margin-top: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
-#mini-logo{
-    position: relative;
-    top: 5px;
-    margin-right: 8px;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-}
-
 .bloque-info{
     display: inline-block;
     position: absolute;
-    top: 40px;
+    top: 25px;
     width: 800px;
     height: auto;
     background-color: #E6E8E6;
     border-radius: 3px;
-    margin: 0 15px 0 15px;
+    margin: 0 auto;
 }
 
 .titulo-mediano{
@@ -67,10 +48,49 @@ header{
 .informacion{
     color: #0D1B2A;
     padding: 0 10px 5px 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     line-height: 25px;
 }
+
+#mi-nombre{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#idiomas{
+    font-style: italic;
+    font-size: 20px
+}
+
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 160px;
+    top: 60px;
+    height: auto;
+    width: 80px;
+    border-radius: 3px;
+    background-color: #E6E8E6;
+}
+
+#github{
+    width: 60px;
+    height: 60px;
+    padding-top: 8px;
+    margin: 0 10px 8px 10px;
+}
+
+#linkedin{
+    width: 60px;
+    height: 60px;
+    padding-top: 8px;
+    margin: 0 10px 8px 10px;
+}
+
+/*---------------------------------*/
 
 main{
     height: 1080px;
