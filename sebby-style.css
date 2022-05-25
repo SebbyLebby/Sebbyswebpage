@@ -69,11 +69,12 @@ header{
     flex-direction: column;
     position: absolute;
     right: 160px;
+    left: 1280px;
     top: 60px;
     height: auto;
     width: 80px;
     border-radius: 3px;
-    background-color: #E6E8E6;
+    background-color: rgba(230,232,230,0.4);
 }
 
 #github{
@@ -97,48 +98,48 @@ main{
 }
 
 .programas{
-    background: linear-gradient(#0D1B2A, #1B263B);
+    background: linear-gradient(#0D1B2A, #415A77);
 }
 
 h1.titulo-grande{
     color:white;
     font-size: 55px;
-    margin-left: 50px;
+    margin-left: 100px;
     padding: 20px;
 }
 
-.bloque-herramientas{
-    width: 800px;
-    display:inline-block;
-    height: 300px;
-    margin: 0 5px;
+.habilidades{
+    display: flex;
+
+}
+
+.caja-logos{
+    background-color: rgba(230,232,230,0.4);
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 15px 0 20px;
+    border-radius: 3px;
 }
 
 .frontend{
-    display: inline-block;
-    height: 250px;
-    margin: 40px 30px;
-    padding-bottom: 15px 300px;
+    display: flex;
+    align-items: center;
+
 }
 
 .backend{
-    display: inline-block;
-    height: 300px;
-    position: relative;
-    left: 100px;
-    bottom: 30px;
-    margin: 40px 30px;
-    padding-bottom: 15px 300px;
+    display: flex;
+    align-items: center;
+
 }
 
 .data-analysis{
-    display: inline-block;
-    height: 250px;
-    position: relative;
-    left: 100px;
-    bottom: 30px;
-    margin: 40px 30px;
-    padding-bottom: 15px 300px;
+    display: flex;
+    align-items:center;
+
 }
 
 .logo{
@@ -146,52 +147,16 @@ h1.titulo-grande{
     padding: 10px 15px 10px 10px;
 }
 
-h2.titulo-herramienta1{
-    display: inline-block;
-    position: absolute;
-    top: 550px;
-    right: 200px;
-    margin-left: 200px;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    text-decoration: underline;
+.areas{
+    display: flexbox;
+    flex-direction: column;
 }
 
-h2.titulo-herramienta2{
-    display: inline-block;
-    position: absolute;
-    top: 850px;
-    right: 215px;
-    color: white;
-    font-size: 50px;
-    margin-left: 200px;
-    text-align: center;
-    text-decoration: underline;
-}
-
-h2.titulo-herramienta3{
-    display: inline-block;
-    position: absolute;
-    top: 1150px;
-    right: 140px;
-    color: white;
-    font-size: 50px;
-    margin-left: 200px;
-    text-decoration: underline;
-}
-
-h2:hover{
-    color:#FFFE00;
-}
-
-.experiencia-laboral{
-    background: linear-gradient(#1B263B, #415A77);
-}
 
 ul{
     margin: 15px 0 15px 70px;
 }
+
 
 .items::before{
     content: "✦";
